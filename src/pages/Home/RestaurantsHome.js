@@ -56,9 +56,8 @@ function RestaurantsHome() {
   return (
     <Layout>
       <HeaderPage
-        title="Restaurantes"
+        title=""
         child={<>
-          <Text size={18}>Filtrar por municipio:</Text>
           <div style={
              {
                 display: 'flex',
@@ -68,14 +67,6 @@ function RestaurantsHome() {
                 maxWidth: '400px',
              }
           }>
-            <>
-              <SelectMaterialUi
-                label="Municipio"
-                value={municipality}
-                options={dataMunicipality}
-                onChange={onchangeMunicipality}
-              />
-            </>
           </div>
         </>
         }

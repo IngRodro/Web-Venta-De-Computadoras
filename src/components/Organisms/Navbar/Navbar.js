@@ -15,12 +15,7 @@ function Navbar({ signButton }) {
   return (
     <StyleNavbar>
       <StyleLogoWrapper>
-        <Bohemia
-          width={300}
-          height={300}
-          fill={theme === 'light' ? '#000' : '#fff'}
-          onClick={() => { if(isAuthenticated) {navigate('/app/restaurants')} else {navigate('/home/restaurants')}}}
-        />
+
         <Title
           fontFamily="Bodoni MT"
           color="#fff"

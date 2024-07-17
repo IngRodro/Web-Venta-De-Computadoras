@@ -82,7 +82,7 @@ function MenuNavbar({ signButton = true }) {
             labelColor="text"
             $type="ActionItem"
             $colorSvgHover="success"
-            onClick={() => navigate('/sign')}
+            onClick={() => {}}
           >
             Log In
             <StyleLogInIcon size={24} />
